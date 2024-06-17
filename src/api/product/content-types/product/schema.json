@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "text"
+    },
+    "product_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "product_id": {
+      "type": "uid"
+    },
+    "is_available": {
+      "type": "boolean"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "product_shortname": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "integer"
+    }
+  }
+}
