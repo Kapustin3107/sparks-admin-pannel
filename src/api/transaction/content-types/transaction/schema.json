@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "Transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender_id": {
+      "type": "uid"
+    },
+    "receiver_id": {
+      "type": "uid"
+    },
+    "coins_amount": {
+      "type": "integer"
+    },
+    "transaction_id": {
+      "type": "uid"
+    },
+    "message": {
+      "type": "text"
+    },
+    "transaction_date": {
+      "type": "date"
+    }
+  }
+}
